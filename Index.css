@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    background:black;
+    color:white;
+    padding:120px 0;
+}
+
+.section-title{
+    margin-bottom:30px;
+    font-weight:bold;
+}
+
+.skill-card{
+    text-align:center;
+    transition:.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-5px);
+}
+
+.whatsapp-btn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    background:teal;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:normal;
+    z-index:999;
+}
+
+.whatsapp-btn:hover{
+    background:white;
+    color:black;
+}
+
+.card{
+    border:1px solid black;
+}
